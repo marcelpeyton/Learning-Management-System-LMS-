@@ -24,7 +24,10 @@ const startApolloServer = async () => {
   const PORT = process.env.PORT || 3001;
   const app = express();
 
-  app.use(cors({ origin: 'http://localhost:3000', credentials: true }));
+  const CLIENT_URL = process.env.VITE_CLIENT_URL
+
+
+  app.use(cors({ origin: CLIENT_URL, credentials: true }));
   app.use(express.urlencoded({ extended: false }));
   app.use(express.json());
 

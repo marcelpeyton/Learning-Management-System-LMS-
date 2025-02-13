@@ -1,14 +1,14 @@
 import { Outlet, Link, useLocation } from "react-router-dom";
 
-const Syllabus = () => {
+const Lesson = () => {
 
   const location = useLocation();
 
-  const hideLinks = location.pathname !== "/syllabus"
+  const hideLinks = location.pathname !== "/lessons"
 
   return ( 
           <>
-              <h1 className="dashboard">Syllabus</h1>
+              <h1 className="dashboard">Lessons</h1>
               <div>
               <div className="classes">
                 {!hideLinks && (
@@ -32,4 +32,5 @@ const Syllabus = () => {
       );
 };
 
-export default Syllabus;
+export default Lesson;
+

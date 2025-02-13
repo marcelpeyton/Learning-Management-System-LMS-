@@ -13,6 +13,7 @@ const typeDefs = `
     password: String!
   }
 
+
   input UpdateUserInput {
     originUsername: String!
     username: String!
