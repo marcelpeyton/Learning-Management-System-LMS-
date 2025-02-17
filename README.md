@@ -28,4 +28,4 @@ This project is licensed under the MIT license.
   ## Tests
   N/A
 
-  Launched Page: [Learning Management System]([https://dulcet-crumble-fbb1d1.netlify.app/](https://learning-management-system-lms-2-snrp.onrender.com/)).
+  Launched Page: [[Learning Management System]([https://dulcet-crumble-fbb1d1.netlify.app/](https://learning-management-system-lms-2-snrp.onrender.com/)).](https://learning-management-system-lms-ehso.onrender.com/)
